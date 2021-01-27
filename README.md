@@ -6,11 +6,10 @@ This can be install depedencies packages by typing the following command .
 ```
 npm install or yarn install 
 ```
-This can be run by typing the following command .
+This can be run by typing the following command . (It must be use port 3000 to run .)
 ```
 npm run-script start or yarn start
 ```
-It must be use port 3000 to run .
 
 ## API Document
 Base url: http://localhost:3000
