@@ -10,6 +10,7 @@ This can be run by typing the following command .
 ```
 npm run-script start or yarn start
 ```
+It must be use port 3000 to run .
 
 ## API Document
 
