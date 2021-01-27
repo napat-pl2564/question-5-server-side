@@ -13,6 +13,7 @@ npm run-script start or yarn start
 It must be use port 3000 to run .
 
 ## API Document
+Base url: http://localhost:3000
 
 | End Point   | Method |      Parameters      | Description |
 | ------------|-------|-----------------------|-------------|
