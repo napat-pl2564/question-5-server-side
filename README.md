@@ -13,7 +13,7 @@ npm run-script start or yarn start
 
 ## API Document
 
-| End Point   | Method |      Parameters      | Description |  Return |
-| ------------|-------|-----------------------|-------------|---------|
-| /calculator/load | Get |    | Get lastest state of Calculator application from file in Google Drive | Data of Calculator |
-| /calculator/save | Post | A: number, B: number, operator: string, result: string | Create transaction data when purchasing boardgames | Created transaction object |
+| End Point   | Method |      Parameters      | Description |
+| ------------|-------|-----------------------|-------------|
+| /calculator/load | Get |    | Get lastest state of Calculator application from file in Google Drive |
+| /calculator/save | Post | A: number, B: number, operator: string, result: string | Upload json file with lastest state of Calculator application to Google Drive |
