@@ -24,9 +24,9 @@ Base url: http://localhost:3000
 
 ## Google Drive APIs
 
-Drive APIs must be use by Oauth2 to access APIs
+Drive APIs must be use by Oauth2 to access APIs.
 
-When I use Oauth2 for the first time, I need to login for get the code of authorization and use it to get access token and refresh token.
+When I use Oauth2 for the first time, I need to login (google account of this project) to get the code of authorization and use it to get access token and refresh token.
 
 I have attached token.json in this repository for Re-authentication with refresh token.
 
