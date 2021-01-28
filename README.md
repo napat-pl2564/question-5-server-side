@@ -20,3 +20,14 @@ Base url: http://localhost:3000
 | /calculator/save | POST | A: number, B: number, operator: string, result: string | Upload json file with lastest state of Calculator application to Google Drive |
 
 * operator string should be in ["plus", "minus", "multiply", "divide", "power"]
+
+
+## Google Drive APIs
+
+Drive APIs must be use by Oauth2 to access APIs
+
+When I use Oauth2 for the first time, I need to login for get the code of authorization and use it to get access token and refresh token.
+
+I have attached token.json in this repository for Re-authentication with refresh token.
+
+But if it can't connect use it to access APIs, I have attached config.js for username and password for GCP account of this project.
